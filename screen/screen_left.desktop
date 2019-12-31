@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ScreenLeft
+GenericName=RotateScreen
+Comment=rotato screen
+Exec=bash -c '"$(dirname "$1")"/screen_left.sh' dummy %k
+Terminal=false
+Type=Application
+Icon=/home/rcwind/demo-doc/screen/left.png
+
